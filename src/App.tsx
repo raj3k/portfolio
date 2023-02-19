@@ -1,11 +1,14 @@
 import Background from "./components/Background";
+import Introduction from "./components/Introduction";
 
 function App() {
 
   return (
-    <main className="max-w-5xl w-11/12 mx-auto">
+    <main>
       <Background />
-      <h1 style={{color: "white"}}>Hello World</h1>
+      <div className="max-w-5xl w-11/12 mx-auto">
+        <Introduction />
+      </div>
     </main>
   )
 }

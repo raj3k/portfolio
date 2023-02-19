@@ -5,7 +5,7 @@ import type { Engine, Container } from "tsparticles-engine"
 
 const Background = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
-    console.log(engine)
+    // console.log(engine)
     await loadFull(engine)
   }, [])
 

@@ -30,6 +30,7 @@ const Background = () => {
           },
           fpsLimit: 160,
           interactivity: {
+            detect_on: 'window',
             events: {
               onClick: {
                 enable: true,

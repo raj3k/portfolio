@@ -1,15 +1,12 @@
-import './App.css';
 import Background from "./components/Background";
 
 function App() {
 
   return (
-    <section>
+    <main className="max-w-5xl w-11/12 mx-auto">
       <Background />
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </section>
+      <h1 style={{color: "white"}}>Hello World</h1>
+    </main>
   )
 }
 

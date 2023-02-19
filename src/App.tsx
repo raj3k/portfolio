@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import Background from "./components/Background";
 
 function App() {

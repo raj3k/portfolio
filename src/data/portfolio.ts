@@ -14,7 +14,7 @@ export default [
   {
     title: 'Image Converter using Microservice architecture',
     imgUrl: '/assets/system-diagram.png',
-    stack: ['NodeJS', 'TypeScript', 'Python', 'RabbitMQ', 'MongoDB', 'MySQL', 'Docker'],
+    stack: ['NodeJS', 'TypeScript', 'Python', 'RabbitMQ', 'MongoDB', 'MySQL', 'Docker', 'Nginx'],
     link: 'https://github.com/raj3k/RGB-to-Grayscale-MICROSERVICES',
   },
 ]

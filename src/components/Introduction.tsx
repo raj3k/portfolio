@@ -6,7 +6,14 @@ const Introduction = () => {
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
         <p className="text-4xl md:text-7xl text-white mb-1 md:mb-3 font-bold">Maciej Lukaszuk</p>
         <p className="text-base md:text-xl mb-3 text-white font-medium">Software Engineer & Web Developer</p>
-        <p className="text-sm max-w-xl mb-6 text-white font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p className="text-sm max-w-xl mb-6 text-white font-bold">
+          <p className="py-1.5">I'm a software engineer from Poland.</p>
+          <p className="py-1.5">I enjoy working on application backend but frontend is no stranger to me.</p>
+          <p className="py-1.5">I have particular interest in cloud computing technology and trying to take my first steps into it.</p>
+          <p className="py-1.5">For work, I'm a Analyst at corporation from banking sector, where I work in international environment, helping to
+          upskill and mentor colleagues with less experience. I'm responsible for automation in Excel spreadsheets and cooperating with Dev Team.</p>
+          <p className="py-1.5">Away from the keyboard, I like sports (especially Crossfit and riding bike).</p>
+        </p>
       </div>
     </section>
   )

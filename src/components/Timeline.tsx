@@ -4,11 +4,14 @@ import timeline from "../data/timeline";
 
 const Timeline = () => {
   return (
-    <ol className="relative border-l border-gray-200 dark:border-gray-700">
-      { timeline.map(item => (
-        <TimelineItem timeInterval={item.timeInterval} title={item.title} description={item.description} />
-      ))}
-    </ol>
+    <>
+      <h2 className="text-2xl font-bold text-zinc-50 text-center">Timeline</h2>
+      <ol className="relative border-l border-gray-200 dark:border-gray-700">
+        { timeline.map(item => (
+          <TimelineItem timeInterval={item.timeInterval} title={item.title} description={item.description} />
+        ))}
+      </ol>
+    </>
   );
 };
 

@@ -1,8 +1,10 @@
 import App from '../App';
-import {render, screen} from "@testing-library/react";
+import {render} from "@testing-library/react";
+import Introduction from "../components/Introduction";
 
 
 test('Renders main page correctly', () => {
   render(<App />);
-  expect(screen.getByRole("heading")).toBeInTheDocument();
+  const { baseElement } = render(<Introduction />);
+  expect(baseElement).toMatchSnapshot();
 });

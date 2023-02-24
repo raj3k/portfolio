@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders main page correctly 1`] = `
+<body>
+  <div>
+    <main>
+      <div
+        id="tsparticles"
+      >
+        <canvas
+          style="width: 100%; height: 100%;"
+        />
+      </div>
+      <div
+        class="max-w-5xl w-11/12 mx-auto"
+      >
+        <section>
+          <div
+            class="flex items-center justify-center flex-col text-center pt-20 pb-6"
+          >
+            <p
+              class="text-4xl md:text-7xl text-white mb-1 md:mb-3 font-bold"
+            >
+              Maciej Lukaszuk
+            </p>
+            <p
+              class="text-base md:text-xl mb-3 text-white font-medium"
+            >
+              Software Engineer & Web Developer
+            </p>
+            <p
+              class="text-sm max-w-xl mb-6 text-white font-bold"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </div>
+        </section>
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+        >
+          <hr />
+          <div
+            class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32"
+          >
+            <h2
+              class="text-2xl font-bold text-zinc-50 text-center"
+            >
+              Projects
+            </h2>
+            <div
+              class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
+            >
+              <div
+                class="group relative"
+              >
+                <div
+                  class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
+                >
+                  <img
+                    alt="project image"
+                    class="h-full w-full object-cover object-center"
+                    src="/assets/random-kanye-quote.png"
+                  />
+                </div>
+                <h3
+                  class="mt-6 text-sm text-gray-900 dark:text-white"
+                >
+                  <a
+                    href="http://random-kanye-quote.s3-website.eu-central-1.amazonaws.com/"
+                  >
+                    <span
+                      class="absolute inset-0"
+                    />
+                    Random Kanye West Quote
+                  </a>
+                </h3>
+                <div
+                  class="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white"
+                >
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    HTML
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    CSS
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    JavaScript
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    React
+                  </span>
+                </div>
+              </div>
+              <div
+                class="group relative"
+              >
+                <div
+                  class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
+                >
+                  <img
+                    alt="project image"
+                    class="h-full w-full object-cover object-center"
+                    src="/assets/quiz.png"
+                  />
+                </div>
+                <h3
+                  class="mt-6 text-sm text-gray-900 dark:text-white"
+                >
+                  <a
+                    href="https://github.com/raj3k/quiz_app"
+                  >
+                    <span
+                      class="absolute inset-0"
+                    />
+                    Quiz Application
+                  </a>
+                </h3>
+                <div
+                  class="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white"
+                >
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    Python
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    Django
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    Docker
+                  </span>
+                </div>
+              </div>
+              <div
+                class="group relative"
+              >
+                <div
+                  class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
+                >
+                  <img
+                    alt="project image"
+                    class="h-full w-full object-cover object-center"
+                    src="/assets/system-diagram.png"
+                  />
+                </div>
+                <h3
+                  class="mt-6 text-sm text-gray-900 dark:text-white"
+                >
+                  <a
+                    href="https://github.com/raj3k/RGB-to-Grayscale-MICROSERVICES"
+                  >
+                    <span
+                      class="absolute inset-0"
+                    />
+                    Image Converter using Microservice architecture
+                  </a>
+                </h3>
+                <div
+                  class="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white"
+                >
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    NodeJS
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    TypeScript
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    Python
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    RabbitMQ
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    MongoDB
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    MySQL
+                  </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    Docker
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol
+          class="relative border-l border-gray-200 dark:border-gray-700"
+        >
+          <li
+            class="mb-10 ml-4"
+          >
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            />
+            <time
+              class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >
+              1 March 2020 - Present
+            </time>
+            <h3
+              class="text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              Reference Data Analyst
+            </h3>
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+            </p>
+            <a
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+              href="#"
+            >
+              Learn more 
+              <svg
+                class="w-3 h-3 ml-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          <li
+            class="mb-10 ml-4"
+          >
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            />
+            <time
+              class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >
+              2013 - 2017
+            </time>
+            <h3
+              class="text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              IT student
+            </h3>
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+            </p>
+            <a
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+              href="#"
+            >
+              Learn more 
+              <svg
+                class="w-3 h-3 ml-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          <li
+            class="mb-10 ml-4"
+          >
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            />
+            <time
+              class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >
+              2008 - 2012
+            </time>
+            <h3
+              class="text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              High School
+            </h3>
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+            </p>
+            <a
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+              href="#"
+            >
+              Learn more 
+              <svg
+                class="w-3 h-3 ml-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+        </ol>
+        <footer
+          class="p-4"
+        >
+          <hr
+            class="my-6 border-white-200 sm:mx-auto dark:border-white-700 lg:my-8"
+          />
+          <div
+            class="sm:flex sm:items-center sm:justify-between"
+          >
+            <span
+              class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >
+              © 
+              2023
+               Maciej Lukaszuk. All rights reserved.
+            </span>
+            <div
+              class="flex mt-4 space-x-6 sm:justify-center sm:mt-0"
+            >
+              <a
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                href="https://github.com/raj3k"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  GitHub account
+                </span>
+              </a>
+              <a
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                href="https://www.linkedin.com/in/maciej-%C5%82ukaszuk-793249140/"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  LinkedIn account
+                </span>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <div>
+    <section>
+      <div
+        class="flex items-center justify-center flex-col text-center pt-20 pb-6"
+      >
+        <p
+          class="text-4xl md:text-7xl text-white mb-1 md:mb-3 font-bold"
+        >
+          Maciej Lukaszuk
+        </p>
+        <p
+          class="text-base md:text-xl mb-3 text-white font-medium"
+        >
+          Software Engineer & Web Developer
+        </p>
+        <p
+          class="text-sm max-w-xl mb-6 text-white font-bold"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+  </div>
+</body>
+`;

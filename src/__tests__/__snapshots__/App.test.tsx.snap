@@ -31,7 +31,31 @@ exports[`Renders main page correctly 1`] = `
             <p
               class="text-sm max-w-xl mb-6 text-white font-bold"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <p
+                class="py-1.5"
+              >
+                I'm a software engineer from Poland.
+              </p>
+              <p
+                class="py-1.5"
+              >
+                I enjoy working on application backend but frontend is no stranger to me.
+              </p>
+              <p
+                class="py-1.5"
+              >
+                I have particular interest in cloud computing technology and trying to take my first steps into it.
+              </p>
+              <p
+                class="py-1.5"
+              >
+                For work, I'm a Analyst at corporation from banking sector, where I work in international environment, helping to upskill and mentor colleagues with less experience. I'm responsible for automation in Excel spreadsheets and cooperating with Dev Team.
+              </p>
+              <p
+                class="py-1.5"
+              >
+                Away from the keyboard, I like sports (especially Crossfit and riding bike).
+              </p>
             </p>
           </div>
         </section>
@@ -205,11 +229,21 @@ exports[`Renders main page correctly 1`] = `
                   >
                     Docker
                   </span>
+                  <span
+                    class="inline-block z-10 bg-gray-50 opacity-50 rounded-full py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    Nginx
+                  </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <h2
+          class="text-2xl font-bold text-zinc-50 text-center"
+        >
+          Timeline
+        </h2>
         <ol
           class="relative border-l border-gray-200 dark:border-gray-700"
         >
@@ -222,7 +256,29 @@ exports[`Renders main page correctly 1`] = `
             <time
               class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
             >
-              1 March 2020 - Present
+              Present
+            </time>
+            <h3
+              class="text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              Looking for job oppurtunity
+            </h3>
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              I'm constantly learning new skills and trying to expand my knowledge about Software Development. Currently I'm focused on learning about Cloud Computing.
+            </p>
+          </li>
+          <li
+            class="mb-10 ml-4"
+          >
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            />
+            <time
+              class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >
+              2020 - Present
             </time>
             <h3
               class="text-lg font-semibold text-gray-900 dark:text-white"
@@ -232,26 +288,30 @@ exports[`Renders main page correctly 1`] = `
             <p
               class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              I'm currently working at corporation from banking sector. I'm responsible for automating tasks in Excel spreadsheets using VBA. I helped also in improving, testing and creating requirements for a application that my team is uses on a daily basis.
             </p>
-            <a
-              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-              href="#"
+          </li>
+          <li
+            class="mb-10 ml-4"
+          >
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            />
+            <time
+              class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
             >
-              Learn more 
-              <svg
-                class="w-3 h-3 ml-2"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  clip-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </a>
+              2021 - 2022
+            </time>
+            <h3
+              class="text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              Python developer Course
+            </h3>
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              I attended Python developer course which helped me to refresh and strengthen my skills.
+            </p>
           </li>
           <li
             class="mb-10 ml-4"
@@ -267,31 +327,13 @@ exports[`Renders main page correctly 1`] = `
             <h3
               class="text-lg font-semibold text-gray-900 dark:text-white"
             >
-              IT student
+              Computer Science student
             </h3>
             <p
               class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              I studied CS at "Uniwersytet Warminsko-Mazurski" in Olsztyn. I learned about OOP, Data Structures and Algorithms, basics of networking, databases.
             </p>
-            <a
-              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-              href="#"
-            >
-              Learn more 
-              <svg
-                class="w-3 h-3 ml-2"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  clip-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </a>
           </li>
           <li
             class="mb-10 ml-4"
@@ -302,36 +344,18 @@ exports[`Renders main page correctly 1`] = `
             <time
               class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
             >
-              2008 - 2012
+              2010
             </time>
             <h3
               class="text-lg font-semibold text-gray-900 dark:text-white"
             >
-              High School
+              First line of code
             </h3>
             <p
               class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              I wrote first line of code in high school in the Pascal programming language.
             </p>
-            <a
-              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-              href="#"
-            >
-              Learn more 
-              <svg
-                class="w-3 h-3 ml-2"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  clip-rule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </a>
           </li>
         </ol>
         <footer
@@ -421,7 +445,31 @@ exports[`Renders main page correctly 1`] = `
         <p
           class="text-sm max-w-xl mb-6 text-white font-bold"
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          <p
+            class="py-1.5"
+          >
+            I'm a software engineer from Poland.
+          </p>
+          <p
+            class="py-1.5"
+          >
+            I enjoy working on application backend but frontend is no stranger to me.
+          </p>
+          <p
+            class="py-1.5"
+          >
+            I have particular interest in cloud computing technology and trying to take my first steps into it.
+          </p>
+          <p
+            class="py-1.5"
+          >
+            For work, I'm a Analyst at corporation from banking sector, where I work in international environment, helping to upskill and mentor colleagues with less experience. I'm responsible for automation in Excel spreadsheets and cooperating with Dev Team.
+          </p>
+          <p
+            class="py-1.5"
+          >
+            Away from the keyboard, I like sports (especially Crossfit and riding bike).
+          </p>
         </p>
       </div>
     </section>

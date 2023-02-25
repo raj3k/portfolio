@@ -39,7 +39,7 @@ exports[`Renders main page correctly 1`] = `
               <p
                 class="py-1.5"
               >
-                I enjoy working on application backend but frontend is no stranger to me.
+                I enjoy working on application backend.
               </p>
               <p
                 class="py-1.5"
@@ -453,7 +453,7 @@ exports[`Renders main page correctly 1`] = `
           <p
             class="py-1.5"
           >
-            I enjoy working on application backend but frontend is no stranger to me.
+            I enjoy working on application backend.
           </p>
           <p
             class="py-1.5"

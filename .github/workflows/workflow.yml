@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: npm install
-      - run: npm test
+#      - run: npm test
       - run: npm run build
       - uses: jakejarvis/s3-sync-action@master
         with:

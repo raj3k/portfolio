@@ -5,7 +5,7 @@ const Introduction = () => {
     <section>
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
         <p className="text-4xl md:text-7xl text-white mb-1 md:mb-3 font-bold">Maciej Lukaszuk</p>
-        <p className="text-base md:text-xl mb-3 text-white font-medium">Junior Software Engineer & Web Developer</p>
+        <p className="text-base md:text-xl mb-3 text-white font-medium">Software Engineer & Web Developer</p>
         <p className="text-sm max-w-xl mb-6 text-white font-bold">
           <p className="py-1.5">I'm a software engineer from Poland.</p>
           <p className="py-1.5">I enjoy working on application backend.</p>
